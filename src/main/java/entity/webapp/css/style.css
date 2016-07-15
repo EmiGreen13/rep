@@ -1,0 +1,155 @@
+html,body
+{
+	height:100%;
+}
+
+body {
+	font-family: Arial, Verdana;
+	font-size:18px;
+	margin:0 auto;
+	padding:0;
+	color:#676767;
+	background-color:#f9fbf4;
+	height:100%;
+	background-image:url(../images/original.jpg);
+	background-repeat:repeat-x;
+	min-height:90%;
+}
+
+.img1
+{
+	margin-left: 30px;
+	margin-top: -23px;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+#bottom_container{background-image:url(../images/bg-bottom-container.gif); 
+	background-repeat:repeat-x; height:84px; margin:0 auto 0 auto; clear:both ;}
+
+#TopBar
+{
+	width:1000px;
+	margin:0 auto;
+	float: inherit;
+}
+
+#logo
+{
+	width:160px;
+	height:46px;
+	padding:12px 0 0 0;
+	float:left;
+	margin-bottom: 20px;
+}
+
+#menu
+{
+	width:840px;
+	height:46px;
+	padding:16px 0 0 0;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#header
+{
+	width:500px;
+	padding-top:100px;
+	padding-bottom:250px;
+}
+
+#content
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	height: 750px;
+}
+
+.mainline
+{
+	font-size:35px;
+	color:#000000;
+	width:500px;
+	font-style: italic;
+}
+
+#tagline
+{
+	font-size:12px;
+	color:#333333;
+	width:500px;
+}
+
+.header_content_boxline {
+	font-size:35px;
+	color:#000000;
+	width:400px;
+	font-style: italic;
+}
+
+#header_left {
+	width:470px;
+	float:left;
+}
+
+#header_right {
+	width:470px;
+	float:right;
+}
+
+.header_content_boxcontent {
+	font-size:12px;
+	color:#333333;
+	width:400px;
+	font-style: italic;
+}
+/* Top Navigation bar menu styling */
+#navigation
+{
+	float:right;
+}
+
+#navigation ul li.last
+{
+	background:none;
+}
+
+#navigation ul
+{
+	padding:0;
+	margin:0;
+	width:auto;
+	list-style: none;
+	height:37px;
+	position: relative;
+	float:right;
+}
+
+#navigation li
+{
+	list-style:none;
+	float:left;
+	text-align:center;
+	padding:0;
+	font: 18px Tahoma;
+	color:#ffffff;
+	background:url(../images/nav-divider.gif) no-repeat 100% 3px;
+}
+
+#navigation li a
+{
+	z-index: 10;
+	display: block;
+	float: left;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+	margin: auto 20px;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#navigation a:link{color:#ffffff; text-decoration:none;}
+#navigation a:hover{color:#ffffff; text-decoration:none;}
+#navigation a:active{color:#ffffff; text-decoration:none;}

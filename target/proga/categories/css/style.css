@@ -87,7 +87,7 @@ body {
 .header_content_boxline {
 	font-size:35px;
 	color:#000000;
-	width:400px;
+	width:300px;
 	font-style: italic;
 }
 
@@ -124,7 +124,7 @@ body {
 	margin:0;
 	width:auto;
 	list-style: none;
-	height:37px;
+	height:39px;
 	position: relative;
 	float:right;
 }
@@ -137,7 +137,7 @@ body {
 	padding:0;
 	font: 18px Tahoma;
 	color:#ffffff;
-	background:url(i../mages/nav-divider.gif) no-repeat 100% 3px;
+	background:url(../images/nav-divider.gif) no-repeat 100% 3px;
 }
 
 #navigation li a
