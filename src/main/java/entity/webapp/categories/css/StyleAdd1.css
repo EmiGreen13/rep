@@ -2,7 +2,6 @@ ol, ul {
     list-style: none;
 }
 
-/*
 
 blockquote, q {
     quotes: none;
@@ -130,7 +129,7 @@ body {
     color: #ccc;
     font-size: 13px;
 }
-*/
+
 input, textarea {
     font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
     font-size: 14px;

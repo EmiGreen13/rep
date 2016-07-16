@@ -27,7 +27,7 @@ public class Searching extends abstracts.Searching {
         if(NumberUtils.isNumber(param)){
             return drugsDao.findByNumber(new Integer(param), categoryId);
         }
-        /*
+
         if (param.length() != 0){
             if (Drug.mainMatches(param)){
                 return drugsDao.findByTitle(param, categoryId);
@@ -36,7 +36,7 @@ public class Searching extends abstracts.Searching {
                 throw new NumberFormatException();
             }
         }
-        */
+
         ArrayList arrayList = drugsDao.findAll(categoryId);
         return drugsDao.findAll(categoryId);
     }
